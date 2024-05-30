@@ -2,23 +2,50 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Landing page</title>
 </head>
 
 <body>
-    <nav class = "bg-purple-900 text-white">
-        <img src="https://randomuser.me/api/portraits/med/men/75.jpg" class ="w-5"alt="image">
-    <ul class="px-28 py-4 flex space-x-12   justify-end">
-        <li>Home</li>
-        <li>About</li>
-        <li>Catalogue</li>
-        <li>Contact Us</li>
-    </ul>
+    <nav class="bg-purple-900 text-white flex justify-between ">
+        <img src="https://images.unsplash.com/photo-1590341328520-63256eb32bc3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-16 rounded-2xl h-15" alt="image" />
+        <ul class="px-28 py-4 flex space-x-12 justify-end font-bold">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">About</li>
+            <li class="cursor-pointer">Catalogue</li>
+            <li class="cursor-pointer">Contact Us</li>
+        </ul>
     </nav>
+
+    <main class="bg-amber-100 flex justify-around">
+        <div class="main py-40 pl-9">
+            <div class="text-6xl">The best phones in our store</div>
+            <div>
+                <p class="py-3 w-1/3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                    error eius odio repellat est quo dolores, ipsa modi vitae debitis.
+                    Cumque quam ipsum veritatis rerum praesentium! Doloremque, esse
+                    harum. Hic voluptas earum suscipit in soluta.
+                </p>
+
+                <div class="buttons flex gap-7 my-4">
+                    <button
+                        class="bg-lime-300 rounded-2xl pl-4 pr-4 border-2 border-black hover:text-white hover:bg-cyan-300 mx-3">
+                        Button
+                    </button>
+                    <button class="bg-lime-300 rounded-2xl pl-4 pr-4 border-2 border-black mx-3">
+                        Contact Us
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="flex item-center">
+            <img src="https://i.gadgets360cdn.com/large/lego_life_story_1485952553137.jpg" class="h-" />
+        </div>
+    </main>
 </body>
 
 </html>
